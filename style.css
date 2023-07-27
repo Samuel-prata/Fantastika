@@ -54,8 +54,8 @@ header {
 }
 
 .pata2 {
-    width: 65vw;
-    height: 70vh;
+    width: 31vw;
+    height: 85vh;
     text-align: center;
 }
 
@@ -80,7 +80,7 @@ header {
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 40vw;
+    width: 30vw;
     height: 60vh;
     color: #3A342F;
     margin-left: 30px;
@@ -94,19 +94,19 @@ header {
 }
 
 .service p {
-    font-size: 27px;
+    font-size: 33px;
 
 }
 
 .sectionTwo button {
-    padding: 30px;
     border-radius: 44px;
     border: none;
     background: #3A342F;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     width: 20vw;
+    height: 10vh;
 }
 
 /* Terceira sessão */
@@ -137,26 +137,25 @@ header {
 }
 
 .service2 p {
-    font-size: 27px;
+    font-size: 33px;
     color: #ffffff;
 }
 
 .sectionThree button {
-    padding: 10px;
     width: 20vw;
     height: 10vh;
     border-radius: 44px;
     border: none;
     background: #ffffff;
     color: #000000;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 /* Quarta sessão */
 .support {
     display: flex;
-    height: 30vh;
+    height: 20vh;
     justify-content: center;
     align-items: center;
 }
@@ -174,7 +173,7 @@ header {
 
 .names h2 {
     color: #FD6A9A;
-    font-size: 24px;
+    font-size: 30px;
     font-style: italic;
     font-weight: lighter;
 }
@@ -185,7 +184,7 @@ header {
 
 footer {
     align-items: center;
-    height: 30vh;
+    height: 40vh;
     background: #EB4A7B;
     color: white;
 }
@@ -238,6 +237,9 @@ footer a {
     .sectionOne {
         background-image: url(./img/Mobile/felizMobile.png);
     }
+    .pata2{
+        width: 80vh;
+    }
 
     .sectionOne h2 {
         font-size: 40px;
@@ -270,6 +272,7 @@ footer a {
     .service button {
         font-size: 22px;
         width: 50vw;
+
     }
 
     /* terceira sessão */
